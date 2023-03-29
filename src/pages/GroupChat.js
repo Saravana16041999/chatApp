@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { Massagecontext } from '../App'
 
 const GroupChat = () => {
-    const {setgrouptext,roomInputRef,grouptext} = useContext(Massagecontext)
+    const {setgrouptext,roomInputRef} = useContext(Massagecontext)
     const [err,seterr] = useState(false)
     const navigate = useNavigate()
 
