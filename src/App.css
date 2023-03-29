@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(19, 137, 255, 0.508);
+}
+.app {
+  width: 500px;
+  height: 500px;
+  margin-top: 30px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.171);
+}
+.log-in-page {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.login-btn {
+  border-radius: 20px;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  border-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-btn:hover {
+  color: white;
+  border-style: solid;
+  border-color: white;
+  background: none;
+}
+.Group-chat {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.input-btn {
+  width: 300px;
+  height: 30px;
+  border-style: none;
+  background-color: rgba(19, 137, 255, 0.17);
+  margin: 10px;
+  border-radius: 20px;
+  color: white;
+}
+.go-btn {
+  margin: 10px;
+  width: 50px;
+  height: 25px;
+  background-color: white;
+  border-style: none;
+  border-radius: 12px;
+}
+.Home-page {
+  width: 500px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.164);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.group-chat-head {
+  width: 500px;
+  text-align: center;
+  margin: 10px;
+}
+.msg-screen {
+  width: 470px;
+  margin-left: 15px;
+  height: 420px;
+  background-color: white;
+  overflow: auto;
+}
+
+.msg-sent-place {
+  margin-left: 15px;
+  width: 470px;
+  height: 30px;
+  overflow: hidden;
+}
+.text-btn {
+  background-color: rgba(255, 255, 255, 0.167);
+  width: 400px;
+  height: 30px;
+  border-style: none;
+  color: white;
+  position: relative;
+}
+.sent-btn {
+  width: 66px;
+  height: 30px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.167);
+  border-style: none;
+  cursor: pointer;
+}
+
+.group-msg {
+  width: auto;
+  background-color: rgba(0, 0, 0, 0.24);
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.group-msg-active {
+  width: 200px;
+  height: 200px;
+  border-bottom-right-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 128, 0, 0.168);
+  position: relative;
+  height: 50px;
+}
+.logout-btn {
+  position: absolute;
+  left: 15px;
+  top: 14px;
+  background: none;
+  border-color: black;
+  border-radius: 12px;
+  border-width: 1px;
+}
+
+.msg-con {
+  margin-left: 20px;
+}
+
+.font-one {
+  margin-left: 10px;
+}
+.user-name {
+  font-weight: 700;
+  font-size: 10px;
+  position: absolute;
+  top: 0;
+}
+.msg-con {
+  width: 200px;
+}
+.time {
+  margin: 10px;
+  position: absolute;
+  right: 0;
+  font-size: 10px;
+  bottom: 0;
+}
