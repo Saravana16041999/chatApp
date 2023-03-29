@@ -2,7 +2,7 @@
 
 This app is Created using Firebase and React -->
 
-#features
+# features
 **User Authentication** 
 **Chat with Multiple people**
 
